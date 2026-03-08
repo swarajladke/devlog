@@ -1,18 +1,18 @@
-# 🚀 DevLog - Developer Learning Journal & Project Tracker
+# DevLog - Developer Learning Journal & Project Tracker
 
 DevLog is a high-end, professional productivity application designed for developers to document their learning journey, track project progress, and archive valuable resources. Built with a focus on **precision, speed, and sophisticated minimalist aesthetics**, DevLog provides a "Linear-level" experience for the modern engineer.
 
 ![Dashboard Preview](https://github.com/vicky-dev/DevLog/raw/main/public/preview.png)
 
-## ✨ Core Features
+## Core Features
 
--   **🧠 Learning Journals**: Document daily insights with a fast, markdown-ready interface.
--   **📁 Project Pipeline**: Track your initiatives from 'Planning' to 'Completed' with linked activity logs.
--   **🔖 Resource Vault**: Archive and categorize technical articles, documentation, and tools.
--   **📈 Operational Dashboard**: Visualize your development cycle with 7-day density charts, tag statistics, and activity streaks.
--   **⚡ High-End UI**: A custom-engineered design system featuring "Vercel-grade" glassmorphism and the premium **Plus Jakarta Sans** typography.
+-   **Learning Journals**: Document daily insights with a fast, markdown-ready interface.
+-   **Project Pipeline**: Track your initiatives from 'Planning' to 'Completed' with linked activity logs.
+-   **Resource Vault**: Archive and categorize technical articles, documentation, and tools.
+-   **Operational Dashboard**: Visualize your development cycle with 7-day density charts, tag statistics, and activity streaks.
+-   **High-End UI**: A custom-engineered design system featuring "Vercel-grade" glassmorphism and the premium **Plus Jakarta Sans** typography.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 -   **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -22,7 +22,7 @@ DevLog is a high-end, professional productivity application designed for develop
 -   **Icons**: [Lucide React](https://lucide-dev.github.io/lucide-react/)
 -   **Animation**: Custom CSS Keyframes & Tailwind Transitions
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ DevLog is a high-end, professional productivity application designed for develop
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/vicky-dev/DevLog.git
+    git clone https://github.com/swarajladke/devlog.git
     cd DevLog
     ```
 
@@ -56,7 +56,7 @@ DevLog is a high-end, professional productivity application designed for develop
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 DevLog is built with a **Client-Side First** philosophy for the UI, backed by robust RESTful API routes.
 
@@ -83,7 +83,7 @@ export async function PUT(request: Request) {
 }
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
