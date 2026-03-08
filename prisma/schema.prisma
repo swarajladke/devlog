@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Log {
+  id          String    @id @default(cuid())
+  title       String
+  description String
+  tags        String    // Comma-separated tags for simplicity in SQLite
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  projects    Project[] @relation("LogToProject")
+}
+
+model Project {
+  id          String    @id @default(cuid())
+  projectName String
+  description String
+  status      String    // Planning, In Progress, Completed
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  logs        Log[]     @relation("LogToProject")
+}
+
+model Resource {
+  id        String   @id @default(cuid())
+  title     String
+  url       String
+  category  String
+  createdAt DateTime @default(now())
+}
